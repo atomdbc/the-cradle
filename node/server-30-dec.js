@@ -1,13 +1,12 @@
 
 function checkEntry (personAge,hasTicket ) {
-    let age = 21;
     if (isNaN(personAge )  ||  isNaN(hasTicket)) {
         return "Not a valid age or one input is empty";
     }
-    else if (age <= personAge) {
+    else if (21 <= personAge) {
         return "Welcome in"
     }
-    else if (age >= personAge && hasTicket) {
+    else if (21 >= personAge && hasTicket) {
         return "Welcome in"
     }
     else {
